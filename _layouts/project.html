@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<div class="container">
+  <div class="buffer" style="height: 5rem;"></div>
+  <h1 style="text-align:center; font-family: 'Economica', sans-serif;"> {{ page.title }} </h1>
+  <div class="row" style="">
+    <div class="col-sm-8">
+      <div class="buffer" style="height: 4rem;"></div>
+      {%for image in page.images%}
+        <img style="width:100%;height:auto;padding-bottom: 30px;" src="{{ image.image_path }}" alt="">
+      {% endfor %}
+    </div>
+    <div class="col-sm-4 auto" style="font-family: 'Montserrat', sans-serif;">
+      <div class="sticky-top" style="">
+          <div class="buffer" style="height: 4rem;"></div>
+          <div>
+            <p > {{content}} </p>
+          </div>
+       </div>
+    </div>
+  </div>
+
+  <div class="buffer" style="height: 5rem;"></div>
+</div>
+
+
+<div class="container">
+  <div class="buffer" style="height: 5rem;"></div>
+  <h1 style="text-align:center; font-family: 'Economica', sans-serif;"> View All Projects </h1>
+  <div class="row">
+    {% for project in site.projects %}
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <div class="hovereffect">
+        <img style="display: block;max-width:320px;max-height:240px;width: auto; height: auto; margin:10px;" class="img-responsive" src="{{project.thumbnail}}" alt="">
+        <div class="overlay">
+          <h2>{{project.title}}</h2>
+          <a class="info" href="{{project.url}}">View project</a>
+        </div>
+      </div>
+    </div>
+    {% endfor%}
+  </div>
+</div>

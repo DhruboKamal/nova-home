@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-custom fixed-top" style="background-color: rgba(255, 255, 255, 0.95);">
+  <div class="d-flex flex-grow-1">
+    <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+    <a class="navbar-brand" href=" {{ /index.html | relative_url }} "> Nova Farah Srabon </a>
+    <div class="w-100 text-right">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+  <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
+    <ul class="navbar-nav ml-auto flex-nowrap">
+      {% for item in site.data.navigation %}
+        {% if page.url == item.link %}
+          <li class="nav-item active"><a href="{{ item.link}}" class="nav-link"> {{item.name}} </a></li>
+        {% endif %}
+        <li class="nav-item"><a href="{{ item.link}}" class="nav-link"> {{item.name}} </a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
