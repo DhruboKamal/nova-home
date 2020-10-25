@@ -1,5 +1,5 @@
-#baseurl: 'nova-home'
-url: "https://dhrubokamal.github.io/nova-home"
+baseurl: '/nova-home/'
+
 
 collections:
   projects:
