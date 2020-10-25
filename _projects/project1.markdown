@@ -1,15 +1,15 @@
 ---
 title: Chiva House I Kengo Kuma
 layout: project
-thumbnail: /assets/project_images/pj1_1.png
+thumbnail: assets/project_images/pj1_1.png
 images:
-  - image_path: /assets/project_images/pj1_1.png
+  - image_path: assets/project_images/pj1_1.png
     img-title: Chiva House
-  - image_path: /assets/project_images/pj1_2.png
+  - image_path: assets/project_images/pj1_2.png
     img-title: Chiva House
-  - image_path: /assets/project_images/pj1_3.png
+  - image_path: assets/project_images/pj1_3.png
     img-title: Chiva House
-  - image_path: /assets/project_images/pj1_4.png
+  - image_path: assets/project_images/pj1_4.png
     img-title: Chiva House
 
 

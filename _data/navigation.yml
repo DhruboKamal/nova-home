@@ -1,6 +1,6 @@
 - name: About Me
-  link: /#aboutme
+  link: index.html/#aboutme
 - name: Projects
-  link: /#projects
+  link: index.html/#projects
 - name: Contact
-  link: /#contact
+  link: index.html/#contact
