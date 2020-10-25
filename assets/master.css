@@ -8,7 +8,7 @@ p,a, ol li, ul li, h1,h2,h3,h4,h5,h6{
 }
 
 #home{
-  background:url({{"assets/cover.jpg" | relative_url}}) no-repeat center center fixed;
+  background:url("https://img.wallpapersafari.com/desktop/1280/1024/62/33/v3Bxq8.jpg") no-repeat center center fixed;
   display: table;
   height: 100% ;
   position: relative;

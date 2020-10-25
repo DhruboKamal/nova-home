@@ -8,7 +8,7 @@ layout: default
     <div class="col-sm-8">
       <div class="buffer" style="height: 4rem;"></div>
       {%for image in page.images%}
-        <img style="width:100%;height:auto;padding-bottom: 30px;" src="{{ image.image_path }}" alt="">
+        <img style="width:100%;height:auto;padding-bottom: 30px;" src="{{ image.image_path | relative_url}}" alt="">
       {% endfor %}
     </div>
     <div class="col-sm-4 auto" style="font-family: 'Montserrat', sans-serif;">
@@ -32,10 +32,10 @@ layout: default
     {% for project in site.projects %}
     <div class="col-md-4 col-sm-6 col-xs-12">
       <div class="hovereffect">
-        <img style="display: block;max-width:320px;max-height:240px;width: auto; height: auto; margin:10px;" class="img-responsive" src="{{project.thumbnail}}" alt="">
+        <img style="display: block;max-width:320px;max-height:240px;width: auto; height: auto; margin:10px;" class="img-responsive" src="{{project.thumbnail | relative_url}}" alt="">
         <div class="overlay">
           <h2>{{project.title}}</h2>
-          <a class="info" href="{{project.url}}">View project</a>
+          <a class="info" href="{{ project.url | relative_url}}">View project</a>
         </div>
       </div>
     </div>
