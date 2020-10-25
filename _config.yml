@@ -1,4 +1,5 @@
 baseurl: 'nova-home'
+url: "https://dhrubokamal.github.io/nova-home"
 
 collections:
   projects:
