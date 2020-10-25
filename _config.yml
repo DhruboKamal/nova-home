@@ -1,3 +1,5 @@
+baseurl: 'nova-home'
+
 collections:
   projects:
     output: true
