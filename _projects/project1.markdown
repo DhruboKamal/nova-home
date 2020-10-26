@@ -1,6 +1,6 @@
 ---
 title: Chiva House I Kengo Kuma
-layout: project2
+layout: project
 thumbnail: assets/project_images/pj1_1.png
 image_folder: /project1/
 
