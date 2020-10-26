@@ -1,5 +1,5 @@
 html,body{
-  min-width:350px;
+  min-width:250px;
   height:100%;
   width: 100%;
 }
@@ -75,7 +75,7 @@ p,a, ol li, ul li, h1,h2,h3,h4,h5,h6{
     max-height: 50vh;
 }
 .modal-full .modal-content{
-  
+
 }
 
 
