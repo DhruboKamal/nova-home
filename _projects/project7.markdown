@@ -2,11 +2,7 @@
 title: Seventh Project
 layout: project
 thumbnail: assets/project_images/pj1_4.png
-images:
-  - image_path: assets/project_images/pj1_1.png
-    img-title: Chiva House
-  - image_path: assets/project_images/pj1_2.png
-    img-title: Chiva House
+image_folder: /project3/
 ---
 Project details of the 7th fucking project
 

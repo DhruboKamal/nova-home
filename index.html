@@ -31,26 +31,30 @@ layout: default
       {% assign value = forloop.index | modulo:2 %}
       {% if value == 1 %}
       <div class="col-sm-6">
-        <img style=" width:100%; height:auto; padding-left: 40px;" src="{{ project.thumbnail }}" alt="{{ project.title}}">
+        <a href="{{ project.url | relative_url}}" > <img style=" width:100%; height:auto; padding-bottom:40px ;" src="{{ project.thumbnail }}" alt="{{ project.title}}"> </a>
+
       </div>
       <div class="col-sm-6">
-        <h2 style="font-family: 'Economica'; "> {{forloop.index}}. {{ project.title }} </h2>
+        <a href="{{ project.url | relative_url}}" style="text-decoration: inherit; color:black;" > <h2 style="font-family: 'Economica'; "> {{forloop.index}}. {{ project.title }} </h2> </a>
+
         <p style="font-family: 'Montserrat', sans-serif;" "> {{ project.content }} </p>
-        <a href="{{ project.url | relative_url}}"> view full project </a>
+
       </div>
 
       {% else %}
       <div class="col-sm-6" style="text-align:right;">
-        <h2 style = "font-family: 'Economica'; "> {{forloop.index}}. {{ project.title }} </h2>
+        <a href="{{ project.url | relative_url}}" style="text-decoration: inherit; color: black;"> <h2 style="font-family: 'Economica'; "> {{forloop.index}}. {{ project.title }} </h2> </a>
         <p style=  "font-family: 'Economica', sans-seri; font-size: 20px;"> {{ project.content }} </p>
-        <a href="{{ project.url | relative_url}}"> view full project </a>
+
       </div>
       <div class="col-sm-6">
-        <img style=" width:100%; height:auto; padding-right:40px;" src="{{ project.thumbnail }}" alt="{{ project.title}}">
+        <a href="{{ project.url | relative_url}}"> <img style=" width:100%; height:auto; padding-bottom:40px;" src="{{ project.thumbnail }}" alt="{{ project.title}}"> </a>
+
       </div>
       {% endif %}
     </div>
     <hr>
+
     {% endfor %}
 
 
@@ -59,6 +63,8 @@ layout: default
 </div>
 
 <div class="buffer" id="contact" style="height: 7rem;"></div>
+<div class ="fixed"></div>
+<div class="buffer" id="contact" style="height: 3rem;"></div>
 <div class="container" >
   <h2 style="font-family: 'Economica'; text-align:center;"> My contact informations </h2>
 </div>

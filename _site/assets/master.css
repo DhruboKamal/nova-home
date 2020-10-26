@@ -8,7 +8,7 @@ p,a, ol li, ul li, h1,h2,h3,h4,h5,h6{
 }
 
 #home{
-  background:url("https://img.wallpapersafari.com/desktop/1280/1024/62/33/v3Bxq8.jpg") no-repeat center center fixed;
+  background:url("https://dummyimage.com/600x400/f7f3ed/f7f3ed") no-repeat center center fixed;
   display: table;
   height: 100% ;
   position: relative;
@@ -43,13 +43,6 @@ p,a, ol li, ul li, h1,h2,h3,h4,h5,h6{
   flex-wrap: wrap;
 }
 
-.thumb-text{
-  position: relative;
-}
-
-.thumb_trans img:hover{
-  transform: scale(1.1)
-}
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
@@ -62,10 +55,10 @@ p,a, ol li, ul li, h1,h2,h3,h4,h5,h6{
   50% { border-color: orange; }
 }
 
-#fixed{
-  background:url("assets/cover.jpg") no-repeat center bottom fixed;
+.fixed{
+  background:url("https://dummyimage.com/600x400/f7f3ed/f7f3ed") no-repeat center bottom fixed;
   display: table;
-  height: 30% ;
+  height: 20% ;
   position: relative;
   width: 100% ;
   background-size: cover;
