@@ -8,16 +8,28 @@ p,a, ol li, ul li, h1,h2,h3,h4,h5,h6{
 }
 
 #home{
-  background:url("https://dummyimage.com/600x400/f7f3ed/f7f3ed") no-repeat center center fixed;
+  background:url("cover3.jpg") no-repeat center center fixed;
   display: table;
   height: 100% ;
   position: relative;
   width: 100% ;
   background-size: cover;
 }
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .landing-text{
   /*padding-left: 40%; */
   display: table-cell;
+   min-height: 100vh;
   text-align: center;
   vertical-align: middle;
   color: black;
@@ -34,13 +46,6 @@ p,a, ol li, ul li, h1,h2,h3,h4,h5,h6{
   animation:
   typing 3.5s steps(40, end),
   blink-caret .75s step-end infinite;
-}
-
-.thumb_trans{
-  position: relative;
-  width:auto;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 /* The typing effect */
