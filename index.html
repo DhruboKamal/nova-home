@@ -7,22 +7,30 @@ title: Portfolio of Nova farah Srabon
 <div class="" id="home">
   <div class="landing-text">
       <div class="typewriter">
-        <h1 style="font-family: 'Economica'; "><b> I'm Nova Farha Srabon. </b></h1>
-        <br>
+        <h1 style="font-family: 'Economica'; ">Hi, <b>I'm Nova Farha Srabon.</b></h1> <br>
       </div>
+      <h4 style="font-family: 'Montserrat', sans-serif;"> Welcome to my Portfolio </h4>
+      <!-- a href="{{"/assets/CV of Nova Farha.pdf" | relative_url}}" class="btn btn-default" style="color:black ;border-color: black ;border-width:2px; border-radius: 50px"> Download CV </a -->
   </div>
 </div>
 
+
+
 <div class="buffer" id="aboutme" style="height: 7rem;"></div>
+
 <div class="container" >
   <div class="row">
-    <div class="col-md-6" style="text-align:right;">
-      <h2 style="font-family: 'Economica'; "> About Me! </h2>
-      <p style="font-family: 'Economica', sans-serif; font-size: 20px; "> My passion for architecture and dream around this subject push me to think broadly and to work hard to be a professional. As an avid learner, I always welcome any event as an experience. I am an ambivert, honest, devoted, responsible, and enjoy challenging situations. </p>
-    </div>
+    <div class="col col-md-3"></div>
     <div class="col col-md-6">
-      <img src="{{"assets/profile.jpg" | relative_url }}" alt="" style="width: 100%; height:auto; border: 1px solid #ddd; padding-rigt: 20px;">
+      <div class="d-flex justify-content-center">
+        <img src="{{"assets/pp.jpg" | relative_url }}" alt="" style="width: 50%; height:auto; padding: 20px;" class= "rounded-circle">
+      </div>
+      <h2 style="font-family: 'Economica';text-align: center; "> About Me! </h2>
+      <p style="font-family: 'Economica', sans-serif; font-size: 20px; text-align: center;"> My passion for architecture and dream around this subject push me to think broadly and to work hard to be a professional. As an avid learner, I always welcome any event as an experience. I am an ambivert, honest, devoted, responsible, and enjoy challenging situations. </p>
+      <p style="font-family: 'Economica', sans-serif; font-size: 20px; text-align: center;"> Education: Bachelor in Architecture (B.Arch),<br> Architecture Descipline, Khulna University,<br> Khulna, Bangladesh. </p>
     </div>
+    <div class="col col-md-3"></div>
+
   </div>
 </div>
 <div class="buffer" id="projects" style="height: 7rem;"></div>
@@ -61,10 +69,19 @@ title: Portfolio of Nova farah Srabon
     {% endfor %}
 </div>
 
-<div class="buffer" id="contact" style="height: 7rem;"></div>
+<div class="buffer" id="" style="height: 7rem;"></div>
 <div class ="fixed"></div>
-<div class="buffer" id="contact" style="height: 3rem;"></div>
+<div class="buffer"  style="height: 5rem;" id="contact"></div>
 <div class="container" >
-  <h2 style="font-family: 'Economica'; text-align:center;"> My contact informations </h2>
+  <h2 style="font-family: 'Economica'; text-align:center;"> Contact Me! </h2><br>
+  <div class="row">
+    <div class="col col-md-6">
+      <h4 style="font-family: 'Economica';"> My contact Information </h4>
+    </div>
+    <div class="col col-md-6">
+      {% include form.html %}
+    </div>
+
+  </div>
 </div>
 <div class="buffer" style="height: 7rem;"></div>

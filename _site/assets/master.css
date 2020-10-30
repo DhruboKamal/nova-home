@@ -8,7 +8,7 @@ p,a, ol li, ul li, h1,h2,h3,h4,h5,h6{
 }
 
 #home{
-  background:url("cover3.jpg") no-repeat center center fixed;
+  background:url("cover.jpg") no-repeat center center fixed;
   display: table;
   height: 100% ;
   position: relative;
@@ -16,18 +16,9 @@ p,a, ol li, ul li, h1,h2,h3,h4,h5,h6{
   background-size: cover;
 }
 
-.carousel-item {
-  height: 100vh;
-  min-height: 350px;
-  background: no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
 .landing-text{
-  /*padding-left: 40%; */
+  /*padding-top: 3%; */ 
   display: table-cell;
    min-height: 100vh;
   text-align: center;
@@ -35,7 +26,7 @@ p,a, ol li, ul li, h1,h2,h3,h4,h5,h6{
   color: black;
 }
 .landing-text h1{
-  font-size: 200%;
+  font-size: 250%;
 }
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
