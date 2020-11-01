@@ -3,24 +3,47 @@ layout: default
 title: Portfolio of Nova farah Srabon
 ---
 
-
-<div class="" id="home">
-  <div class="landing-text">
-      <div class="typewriter">
-        <h1 style="font-family: 'Economica'; ">Hi, <b>I'm Nova Farha Srabon.</b></h1> <br>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/LAaSoL0LrYs/1920x1080')">
+      <div class="carousel-caption d-none d-block">
+        <div class="typewriter"><h2 style="font-family: 'Economica';" class="display-4">Hi I'm Nova Farah Srabon</h2></div>
+        <p class="lead"> Welcome to my portfolio </p>
       </div>
-      <h4 style="font-family: 'Montserrat', sans-serif;"> Welcome to my Portfolio </h4>
-      <!-- a href="{{"/assets/CV of Nova Farha.pdf" | relative_url}}" class="btn btn-default" style="color:black ;border-color: black ;border-width:2px; border-radius: 50px"> Download CV </a -->
+    </div>
+    <div class="carousel-item" style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
+      <div class="carousel-caption d-block">
+        <div class="typewriter"><h2 style="font-family: 'Economica';"  class="display-4">Hi I'm Nova Farah Srabon</h2></div>
+        <p class="lead">Welcome to my portfolio. </p>
+      </div>
+    </div>
+    <div class="carousel-item" style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
+      <div class="carousel-caption d-block">
+        <div class="typewriter"><h2 style="font-family: 'Economica';"  class="display-4">Hi I'm Nova Farah Srabon</h2></div>
+        <p class="lead"> Welcome to my portfolio </p>
+      </div>
+    </div>
   </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
 </div>
 
 
-
-<div class="buffer" id="aboutme" style="height: 7rem;"></div>
-
+<div class="buffer" id="aboutme" style="height: 4rem;"></div>
 <div class="container" >
   <div class="row">
-    <div class="col col-md-3"></div>
+    <div class="d-flex justify-content-center">
     <div class="col col-md-6">
       <div class="d-flex justify-content-center">
         <img src="{{"assets/pp.jpg" | relative_url }}" alt="" style="width: 50%; height:auto; padding: 20px;" class= "rounded-circle">
@@ -29,11 +52,11 @@ title: Portfolio of Nova farah Srabon
       <p style="font-family: 'Economica', sans-serif; font-size: 20px; text-align: center;"> My passion for architecture and dream around this subject push me to think broadly and to work hard to be a professional. As an avid learner, I always welcome any event as an experience. I am an ambivert, honest, devoted, responsible, and enjoy challenging situations. </p>
       <p style="font-family: 'Economica', sans-serif; font-size: 20px; text-align: center;"> Education: Bachelor in Architecture (B.Arch),<br> Architecture Descipline, Khulna University,<br> Khulna, Bangladesh. </p>
     </div>
-    <div class="col col-md-3"></div>
+    </div>
 
   </div>
 </div>
-<div class="buffer" id="projects" style="height: 7rem;"></div>
+<div class="buffer" id="projects" style="height: 4rem;"></div>
 <div class="container" >
   <h1 style="font-family: 'Economica'; text-align:center;"> Here is all the projects on which I worked on! </h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -69,7 +92,7 @@ title: Portfolio of Nova farah Srabon
     {% endfor %}
 </div>
 
-<div class="buffer" id="" style="height: 7rem;"></div>
+<div class="buffer" id="" style="height: 4rem;"></div>
 <div class ="fixed"></div>
 <div class="buffer"  style="height: 5rem;" id="contact"></div>
 <div class="container" >
@@ -77,11 +100,16 @@ title: Portfolio of Nova farah Srabon
   <div class="row">
     <div class="col col-md-6">
       <h4 style="font-family: 'Economica';"> My contact Information </h4>
+      <br>
+      <p>Phone no: +8801712256767 <br>Phone(Home): +8801717530120 <br>Gmail: novaharha19@gmail.com <br>Permanent Address: 317/18, Nirala R/A, Khulna, Bangladesh</p>
+      <br><br>
+      <h4 style="font-family: 'Economica';"> Follow Me on Social Media </h4>
+        <a href="https://www.facebook.com/novafarhasrabon" target="_blank">  <img src= "{{ "/assets/icon/fb.png" | relative_url}}"  alt="" width="40px" height="40px" style="margin:8px;"> </a>
+        <a href="https://www.linkedin.com/in/nova-farha-4577951ab/" target="_blank"> <img src="{{ "/assets/icon/li.png" | relative_url}}" alt="" width="40px" height="40px" style="margin:8px;"> </a>
+        <a href="https://twitter.com/dhrubokamal07" target="_blank">  <img src="{{ "/assets/icon/tw.png" | relative_url}}" alt="" width="40px" height="40px" style="margin:8px;"> </a>
     </div>
     <div class="col col-md-6">
       {% include form.html %}
     </div>
-
   </div>
 </div>
-<div class="buffer" style="height: 7rem;"></div>
